@@ -30,7 +30,7 @@ git clone https://github.com/mit-racecar/racecar_simulator.git
 git clone https://github.com/mit-racecar/racecar_gazebo.git
 ```
 
-Then run catkin_make to build it:
+Then run catkin_make to build them:
 
 ```
 cd ~/catkin_ws
