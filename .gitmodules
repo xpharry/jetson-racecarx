@@ -1,0 +1,15 @@
+[submodule "racecar"]
+	path = racecar
+	url = git@github.com:xpharry/racecar.git
+
+[submodule "racecar_gazebo"]
+	path = racecar_gazebo
+	url = git@github.com:xpharry/racecar_gazebo.git
+
+[submodule "particle_filter"]
+	path = racecar
+	url = git@github.com:xpharry/particle_filter.git
+
+[submodule "range_libc"]
+	path = range_libc
+	url = http://github.com/kctess5/range_libc
