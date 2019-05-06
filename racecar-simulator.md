@@ -4,7 +4,6 @@
 
 - racecar: git clone https://github.com/mit-racecar/racecar.git
 - racecar-simulator: git clone https://github.com/mit-racecar/racecar_simulator.git
-- racecar-gazebo: git clone https://github.com/mit-racecar/racecar_gazebo.git
 
 ## Dependencies
 
@@ -27,7 +26,6 @@ To install the packages, clone them into your catkin workspace:
 cd ~/catkin_ws/src
 git clone https://github.com/mit-racecar/racecar.git
 git clone https://github.com/mit-racecar/racecar_simulator.git
-git clone https://github.com/mit-racecar/racecar_gazebo.git
 ```
 
 Then run catkin_make to build them:
@@ -40,14 +38,10 @@ source devel/setup.bash
 
 ## Quick Start
 
-1. To run the simulator on its own, run:
+To run the simulator on its own, run:
 
 ```
 roslaunch racecar_simulator simulate.launch
 ```
 
 This will launch everything you need for a full simulation; roscore, the simulator, a preselected map, a model of the racecar and the joystick server.
-
-2. Simulates an RC car in the MIT tunnel.
-
-Run "roslaunch racecar_gazebo racecar.launch" or "roslaunch racecar_gazebo racecar_tunnel.launch"
