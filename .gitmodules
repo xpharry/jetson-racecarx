@@ -7,7 +7,7 @@
 	url = git@github.com:xpharry/racecar_gazebo.git
 
 [submodule "particle_filter"]
-	path = racecar
+	path = particle_filter
 	url = git@github.com:xpharry/particle_filter.git
 
 [submodule "range_libc"]
