@@ -12,4 +12,4 @@
 
 [submodule "range_libc"]
 	path = range_libc
-	url = http://github.com/kctess5/range_libc
+	url = git@github.com:kctess5/range_libc.git
