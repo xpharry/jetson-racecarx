@@ -2,7 +2,7 @@
 
 An Autonomous Driving Car based on MIT-RaceCar using Jetson-TX2.
 
-![](./images/racecarx_small.jpg)
+![](./images/jetson-racecar-finish.jpg)
 
 ## Reference
 
